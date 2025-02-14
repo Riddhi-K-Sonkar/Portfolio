@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: #222;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('background.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#Experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-suitcase w3-xxlarge"></i>
+            <p>EXPERIENCE</p>
+        </a>
+        <a href="#Education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-certificate w3-xxlarge"></i>
+            <p>EDUCATION</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#Experience" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+            <a href="#Education" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Riddhi Sonkar.</h1>
+            <h2>Software Developer.</h2>
+            <img src="Image.png" alt="background" class="w3-image" width="992">
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">About</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>Ambitious individual with strong organizational, Spotlight award winning and multitasking skills, as well
+                as an aptitude for technology. Ready to apply knowledge and skills to any challenge.
+            </p>
+            <h3 class="w3-padding-16 w3-text-light-grey"><i
+                    class="fa fa-eye fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>My Skills</h3>
+            <p class="w3-wide">SAP ABAP</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+            </div>
+            <p class="w3-wide">ALV Reports</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+            </div>
+            <p class="w3-wide">Smartforms</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+            </div>
+            <p class="w3-wide">IDOC </p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+            </div>
+            <p class="w3-wide">Testing and debugging </p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+            </div>
+            <p class="w3-wide">RFC Function Modules </p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+            </div>
+            <p class="w3-wide">SAP DMS </p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+            </div>
+            <p class="w3-wide">Batch Data Communication </p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+            </div>
+            <p class="w3-wide">Adobe Forms </p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+            </div><br>
+
+            <h2 class="w3-text-white w3-padding-16"><i
+                    class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal" id="Experience"></i>Work
+                Experience</h2>
+            <div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity w3-text-white"><b>SAP ABAP Developer / Jio Platfroms Limited</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2022 - <span
+                            class="w3-tag w3-teal w3-round">Current</span></h6>
+                    <ul>
+                        <li>Provided technical support on day-to-day issues related to SAP ABAP development environment.
+                        </li>
+                        <li>Interfaced external systems with SAP by using BAPI's, RFC's, ALE and EDI Technologies.</li>
+                        <li>Used SAP DMS to store and manage documents and digital assets.</li>
+                        <li>Performed unit testing for all the developments created as per the functional specification
+                            provided by client.</li>
+                        <li>Designed and developed various modules like Dialog programming, Reports, Smartforms, Adobe
+                            Forms and User Exits.</li>
+                        <li>Created custom reports to meet customer requirements using ALV grids, interactive reporting
+                            and classical reports.</li>
+                        <li>Integrated different systems with SAP via RFC calls using JSON and IDOC processing.</li>
+                        <li>Consume calculation Views in AMDP transformation.</li>
+                        <li>Worked on BADI's for implementing customer specific logic or validations in standard
+                            transactions.</li>
+                    </ul>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity w3-text-white"><b>Software Tester / Jio Platfroms Limited</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2021 - Jan 2022
+                    </h6>
+                    <p>Working in Healthcare domain with digital technologies such as KareXpert along with SAP and
+                        FIORI. Also handy with other applications such as LIMS(Laboratory information management system)
+                        and zMed Ambulance Service.</p>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity w3-text-white"><b>Graduate Engineer Trainee / Jio Platfroms Limited </b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Nov 2020 - Jan 2021
+                    </h6>
+                    <p>Performed manual testing on various applications such as, identified defects and reported them
+                        using
+                        bug tracking systems. </p><br>
+                </div>
+            </div>
+            <!-- End About Section -->
+            <!-- </div> -->
+
+            <!-- Education Section -->
+            <div class="w3-content w3-padding-32" id="Education">
+                <br>
+                <h2 class="w3-text-white w3-padding-16"><i
+                        class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education
+                </h2>
+                <div>
+                    <div class="w3-container">
+                        <!-- <div class="w3-opacity"> -->
+                        <!-- <hr style="width:200px" class="w3-opacity"> -->
+                        <h5 class="w3-opacity w3-text-white"><b>Mumbai University</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2020</h6>
+                        <p>Bachelor Of Engineering, Information Technology</p>
+                        <hr>
+                        <!-- </div> -->
+                        <!-- <div class="w3-container"> -->
+                        <h5 class="w3-opacity w3-text-white"><b>Maharashtra State Board of Technical Education</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2017</h6>
+                        <p>Diploma of Education, Information Technology</p>
+                        <hr>
+                        <h5 class="w3-opacity w3-text-white"><b>Maharashtra State Board Of Secondary & Higher
+                                Education</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2020</h6>
+                        <p>Secondary School Certificate</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Section -->
+        <div class="w3-padding w3-content w3-text-grey" id="contact">
+            <br>
+            <h2 class="w3-text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"><a href="https://www.google.com/maps/place/Reliance+Corporate+Park,+MIDC+Industrial+Area,+Ghansoli,+Navi+Mumbai,+Maharashtra+400701/@19.1242455,73.0123055,3291m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3be7c0beddab5c77:0xd2f7874862ef69dd!8m2!3d19.1275105!4d73.0076079!16s%2Fg%2F1ptz3xz5w?entry=ttu&g_ep=EgoyMDI1MDIxMS4wIKXMDSoASAFQAw%3D%3D"></i>Mumbai, MH</a></p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Phone: 9324899708</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Email:
+                    Riddhi.Sonkar@ril.com
+                </p>
+                <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"><a href="https://www.linkedin.com/in/riddhi-sonkar/"
+                    target="_blank"></i>Riddhi Sonkar</a></p>
+            </div>
+            <!-- End Contact Section -->
+            <br><br><br>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-content w3-black w3-text-grey w3-xlarge">
+
+
+    </footer>
+    <!-- End footer -->
+    <!-- END PAGE CONTENT -->
+    </div>
+
+</body>
+
+</html>
